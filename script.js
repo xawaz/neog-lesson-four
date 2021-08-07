@@ -1,2 +1,5 @@
-var message= prompt("Hey, what is your name?");
-alert("Welcome "+message);
+var btn=document.querySelector(".btn-translate");
+var i=0;
+btn.addEventListener("click",function call(){
+    return console.log("clicked!");
+});
